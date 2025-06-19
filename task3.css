@@ -1,0 +1,146 @@
+/* part 1 addd  */
+.one{
+          font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+  header {
+    background-color: #2e7d32;
+  }
+
+  main {
+    font-size: 16px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  header {
+    font-size: 18px;
+  }
+
+  main {
+    font-size: 14px;
+  }
+}
+
+
+
+
+/* part 2 add */
+.two{
+  font-family: sans-serif;
+  background: #bac9cb;
+  padding: 40px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+ 
+
+  
+}
+
+
+
+ 
+.quiz-container { 
+      background-image: url(q.jpg);
+      background-size: auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px #000000;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+ 
+}
+
+
+
+/* part 3 */
+.three {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #b4bfc1; */
+  background-image: url(j.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+
+.joke-box {
+  background: #c1b4b4;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+ 
+  box-shadow: 0 4px 10px  black;
+ 
+}
+
+
+/* part 4 */
+
+.four{
+  font-family: sans-serif;
+  background-image: url(w.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  border-radius: 30px;
+}
+
+.container {
+ background-image: url(ww.jpg);
+ background-size: cover;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer; margin: 2px;
+  
+}
+
+#weatherResult {
+  margin-top: 20px;
+}
+
